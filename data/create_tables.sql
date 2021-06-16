@@ -228,8 +228,128 @@ CREATE TABLE "article" (
     COULEUR : Noir et or / Blanc et argent
     ALIMENTAIRE CA 100 ~ 240V, 50 ~ 60Hz / DC 12V, 5A (60W)',
     1
-    );
+    ),
 
+    ('SCANNER LASER - QUICK SCAN',
+    NULL,
+    NULL, 
+    'https://imgur.com/r3U0j0l',
+    'https://imgur.com/3qHDhCI',
+    'https://imgur.com/I5ZaB6J',
+    'https://imgur.com/9CRU0JL',
+    NULL,
+    'DATALOGIC2120.SONAS : Scanner LASER DATALOGIC QUICK SCAN.',
+    'Le scanner QuickScan DATALOGIC2120.SONAS est un produit d entrée de gamme conçu spécifiquement pour la numérisation de codes à barres longs et tronqués.
+    Il est parfait pour une utilisation dans le commerce de détail, la fabrication légère, le traitement de documents / factures et les environnements bancaires / financiers.
+
+    Le scanner DATALOGIC2120.SONAS  est petit, léger et sa conception ergonomique est confortable à utiliser lors des opérations quotidiennes.
+
+    Il offre des performances de numérisation rapide sur les codes à barres 1D les plus courants et présente un grand angle de numérisation avec une ligne de numérisation plus longue, ce qui est parfait pour capturer des codes à barres plus longs et plus larges, généralement trouvés sur les factures et utilisés par les fabricants. 
+
+    De plus, la ligne de lecture est plus étroite et plus lumineuse, ce qui permet aux utilisateurs de lire sous de grands angles, sans avoir à augmenter la distance de lecture.
+
+    SUPPORT POLYVALENT
+    Un support spécialement conçu a été créé pour le scanner DATALOGIC2120.SONAS qui est léger, pivotant pour être utilisé à la place d un support fixe et possède également une "tête inclinable" pour diverses configurations d angle
+    Balayage rapide et taux d erreur faible grace à son scan haute précision.',
+    'Distance de lecture élargie
+    Lecture - 1D - 32 bits
+    Support de table - Inclus
+    Support pivotant
+    Type de lampe - Laser
+    Vitesse - 74 scans / s',
+    2
+    ),
+
+    ('SCANNER LASER',
+    NULL,
+    NULL,
+    'https://imgur.com/wRSFkTH',
+    'https://imgur.com/WVOpFCJ',
+    NULL,
+    NULL,
+    NULL,
+    'SCLS.SONAS : Scanner LASER.',
+    'Notre scanner laser est conçu pour accompagner votre caisse enregistreuse dans son bon fonctionnement.
+    Le scanner SCLS.SONAS dispose d un laser à détéction automatique, d un support et d un design ergonomique pour une prise en main optimale.
+    Balayage rapide et taux d erreur faible grace à son scan haute précision.',
+    'Distance de lecture - 10-520 mm
+     - 1D - 32 bits
+    Connexion - USB 2.0
+    Mode - Manuel / Toujours activé
+    Résolution - 5 000 (PCS: 0,6)
+    Support de table - Inclus
+    Type de codes à barres 1D - EAN8, EAN13, Code 39, Code 128, Code 93, Codebar 125
+    Type de lampe - Laser
+    Vitesse - 74 scans / s',
+    2
+    ),
+
+    ('IMPRESSION THERMIQUE - TICKET CLIENT',
+    NULL,
+    NULL,
+    'https://imgur.com/nX2uySz',
+    'https://imgur.com/8NbvNXR',
+    'https://imgur.com/uYyGbwc',
+    'https://imgur.com/rddCdui',
+    'https://imgur.com/3d9F5um',
+    'SONIMPTCL: Impression thermique de ticket de caisse.',
+    'L imprimante SONIMPTCL est une imprimante thermique de haute qualité qui offre une impression rapide et précise des logos et des images graphiques.
+     Limpression est accompagnée d un signal distinct de son et de lumière, convenant à une utilisation dans des environnements à fort niveau de bruit.
+     Elle dispose d une excellente performance et est résistant à l eau, à l huile et à la poussière, adapté à l impression en cuisine. ',
+     'Méthode: thermique directe
+    Vitesse: 300 mm / sec
+    Interface: USB + série + Ethernet
+    Largeur du papier: 80 mm ± 0,5 mm
+    Contrôle du tiroir: DC24V, 1A
+    Découpe du papier: automatique avec technologie anti-bourrage.
+    Compatible avec plusieurs systèmes dexploitation.
+    Alimentation: DC24V, 2.5A',
+    2
+    ),
+
+    ('ROULEAU THERMIQUE - 80 x 80 x 11mm',
+    NULL,
+    NULL,
+    'https://imgur.com/kaBzCc4',
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    'RT808011.SON',
+    'Set de 10 rouleaux de papier thermique, adaptés aux imprimantes de tickets de caisse.
+    Dimensions: 80 x 80 x 11 mm.
+    Nous vendons des rouleaux thermiques, dans les tailles les plus diverses.
+    Rouleau thermique d excellente qualité qui contribuent à prolonger la durée de vie de l imprimante de tickets.',
+    'Type de produit: Papier thermique
+    Dimensions: 80 x 80 x 11 mm
+    Quantité: 10 unités par lot.
+    Largeur du papier: 80 mm
+    Diamètre extérieur du rouleau: 80 mm
+    Diamètre intérieur du tube: 11 mm',
+    3
+    ),
+
+('ROULEAU THERMIQUE - 57 x 40 x 11mm',
+    NULL,
+    NULL,
+    'https://imgur.com/25LZgsl',
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    'RT574011Set.SON',
+    'Set de 10 rouleaux de papier thermique, adaptés aux imprimantes de tickets de caisse.
+    Dimensions: 57x 40 x 11 mm.
+    Nous vendons des rouleaux thermiques, dans les tailles les plus diverses.
+    Rouleau thermique d excellente qualité qui contribuent à prolonger la durée de vie de l imprimante de tickets.',
+    'Type de produit: Papier thermique
+    Dimensions: 57 x 40 x 11 mm
+    Quantité: 10 unités
+    Largeur du papier: 57mm
+    Diamètre extérieur du rouleau: 40 mm
+    Diamètre intérieur du tube: 11 mm ',
+    3
+    );
 
 
    

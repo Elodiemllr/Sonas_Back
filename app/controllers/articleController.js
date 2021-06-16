@@ -26,9 +26,7 @@ const articleController = {
         try {
             const articleId = req.params.id;
             const article = await Article.findByPk(articleId, {
-                order: [
-                    ['position', 'ASC']
-                ]
+        
             });
             if (!article) {
                 res.status(404).json ('Cant find article with id' + articleId);
