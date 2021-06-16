@@ -4,13 +4,7 @@ const categorieController = {
     getAllCategories: async (req, res) => {
         try {
             const categories = await Categorie.findAll ({
-                include: {
-                    association: 'articles'
-                },
-                order: [
-                    ['position', 'ASC'],
-                    ['cards', 'position', 'ASC'],
-                ],
+              
             });
             res.json(categories);
         } catch (error) {
@@ -23,10 +17,7 @@ const categorieController = {
         try {
             const categorieId = req.params.id;
             const categorie = await Categorie.findByPk( categorieId, {
-                include: {
-                    association: 'article'
-                },
-                order: [['position', 'ASC']],
+               
             });
             if (categorie) {
                 res.json(categorie);
@@ -39,3 +30,5 @@ const categorieController = {
             }
         }
     }
+
+    module.exports = categorieController;

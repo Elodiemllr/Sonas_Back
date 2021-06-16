@@ -7,7 +7,7 @@ Categorie.init({
     name : DataTypes.TEXT,
 }, {
     sequelize,
-    tableName: "categorie"
+    tableName: 'categorie'
 });
 
 module.exports = Categorie;

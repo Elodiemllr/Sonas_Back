@@ -8,12 +8,10 @@ const Categorie = require ('./categorie');
 
 Categorie.hasMany(Article, {
     as: 'articles',
-    through: 'categorie_has_article',
     foreignKey: 'categorie_id',
-    otheryKey: 'article_id',
 });
 
-Article.belongsto(Categorie, {
+Article.belongsTo(Categorie, {
     as: 'categorie',
     foreignKey: 'categorie_id',
 });

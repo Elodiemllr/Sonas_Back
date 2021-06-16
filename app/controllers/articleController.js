@@ -10,9 +10,6 @@ const articleController = {
                     where: {
                         categorie_id: categorieId
                     },
-                    order: [
-                        ['position', 'ASC']
-                    ]
                 });
                 if(!articles) {
                     res.status(404).json('Cant find articles with categorie_id' + categorieId);
@@ -43,3 +40,5 @@ const articleController = {
         }
     }
 };
+
+module.exports = articleController;
